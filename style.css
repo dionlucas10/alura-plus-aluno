@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap');
+
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundaria: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --botao-azul-efeito: #3c92fa;
+
+
+    --font-principal: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.conteudo {
+    background-image: url(/Alura/Front-end/aluraplus/img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: var(--font-principal);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 125px 0 124px px;
+    text-align: center;
+}
+
+.img-container{
+    margin: 1em 0 2em 0;
+}
+
+.conteudo-caixa{
+    margin: 0 6em;
+}
+
+.botao-navegacao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.descriction{
+    color: var(--cinza-secundaria);
+    font-family: var(--font-principal);
+    font-size: 0.7rem;
+}
+
+
+.secundario__img{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.texto-secundario{
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 0.1em;
+    text-align: justify;
+}
+
+.paragrafo-secundario{
+    color: var(--cinza-secundaria);
+    text-align: justify;
+}
+.container-descricao{
+    text-align: left;
+    padding: 2em;
+}
+
+.botao-secundario{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container-dispositivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.title-dispositivos{
+    font-family: var(--font-principal);
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+
+.container-dispo{
+    text-align: center;
+}
+
+.dispositivos{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.lista{
+    color: var(--branco-principal);
+    font-family: var(--font-principal);
+    font-size: 32px;
+    margin-top: 0.5em;
+}
+
+.rodape{
+    color: var(--cor-pricipal);
+    background-color: var(--cor-terceriaria);
+    padding: 2em 0;
+    margin-top: 5em;
+    text-align: center;
+}
+
+.img-rodape{
+    width: 102px;
+    justify-items: center;
+}
+
+.rodape_lista{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+.lista-lista{
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    /* margin-bottom: 2rem; */
+}
+
+.lista-lista a{
+    text-decoration: none;
+    color: var(--cor-pricipal);
+}
+
+.lista-lista a:hover{
+    text-decoration: underline;
+}
+.lista-lista a:active{
+    color: violet;
+}
+
+.rodape_texto{
+    color: var(--cinza-secundaria);
+    font-family: var(--font-principal);
+    font-size: 0.7rem;
+    margin-top: 2em;
+}
+
+.botao-navegacao:hover{
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundogit remote add origin https://github.com/seu-usuario/seu-repo.git);
+}
+
