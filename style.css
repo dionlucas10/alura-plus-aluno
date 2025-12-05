@@ -23,7 +23,7 @@ body {
 }
 
 .conteudo {
-    background-image: url(/Alura/Front-end/aluraplus/img/Background.png);
+    background-image: url(/img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -189,6 +189,6 @@ body {
 
 .botao-navegacao:hover{
     background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundogit remote add origin https://github.com/seu-usuario/seu-repo.git);
+    color: var(--cor-de-fundo);
 }
 
